@@ -2,13 +2,25 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Cookie Consent</title>
         <link rel="stylesheet" href="./styles.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="./script.js" defer></script>
     </head>
     <body>
-        <div class="consent-container">
-            <p>We use cookies to improve your user experience</p>
-            <button type="button">Accept Cookies</button>
+        <div class="wrapper">
+            <header>
+                <i class="bx bx-cookie"></i>
+                <h2>Cookies Consent</h2>
+            </header>
+        <div class="data">
+            <p>This website uses Cookies to improve user experience</p>
+        </div>
+        <div class="buttons">
+            <button class="button" id="accept-btn">Accept</button>
+            <button class="button">Decline</button>
+        </div>
         </div>
     </body>
 </html>
